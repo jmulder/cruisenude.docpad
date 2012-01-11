@@ -1,0 +1,48 @@
+{
+	"name": "cruisenude.docpad",
+	"version": "0.1.0",
+	"description": "Bare Necessities Skeleton for Docpad",
+	"homepage": "https://github.com/jmulder/cruisenude.docpad",
+	"keywords": [
+		"website",
+		"docpad",
+		"theme"
+	],
+	"author": {
+		"name": "Jeroen Mulder",
+		"email": "me@jeroenmulder.com",
+		"url": "http://www.jeroenmulder.com"
+	},
+	"bugs": {
+		"url": "https://github.com/jmulder/cruisenude.docpad/issues"
+	},
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/jmulder/cruisenude.docpad.git"
+	},
+	"dependencies": {
+		"coffee-script": "1.2.x",
+		"express": "2.5.x",
+		"docpad": "2.6.1"
+	},
+	"engines" : {
+		"node": ">=0.4.0"
+	},
+	"docpad": {
+		"enabledPlugins": {
+			"admin": false,
+			"rest": true,
+			"authenticate": false,
+			"autoupdate": false,
+			"buildr": false,
+			"html2jade": false
+		},
+		"plugins": {
+			"coffee": {
+				"coffeekup": {
+					"format": true
+				}
+			}
+		}
+	}
+}
